@@ -1,0 +1,51 @@
+<form action="../account/signUp.php" method="get" class="signForm pad20 g10">
+  <h3>Регистрация</h3>
+  <div class="flex column">
+    <div>
+      <input
+        required
+        type="text"
+        name="surname"
+        placeholder="Фамилия"
+        pattern="^[А-Яа-яЁё]+$"
+        class="required"
+      />
+    </div>
+    <div>
+      <input
+        required
+        type="text"
+        name="name"
+        placeholder="Имя"
+        pattern="^[А-Яа-яЁё]+$"
+        class="required"
+      />
+    </div>
+    <div>
+      <input
+        type="text"
+        name="patronymic"
+        placeholder="Отчество"
+      />
+    </div>
+    <div>
+      <input 
+        required 
+        type="password"
+        name="password" 
+        placeholder="Пароль" />
+    </div>
+    <div>
+      <input
+        required
+        type="password"
+        name="password_repeat"
+        placeholder="Повтор пароля"
+      />
+    </div>
+  </div>
+  <div class="btns">
+    <button class="accent">Зарегистрироваться</button>
+    <button class="delAjax accent" type="button">Отмена</button>
+  </div>
+</form>

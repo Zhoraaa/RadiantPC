@@ -1,0 +1,187 @@
+/* Частые особые стили */
+#first-content-on-page {
+    margin: 30px auto;
+    width: 90vw;
+}
+
+.hide {
+    display: none;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+}
+
+.accent {
+    border: #ab3edd 1px solid;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+    background-color: #40395c59;
+
+    color: #ab3edd;
+    font-weight: bold;
+
+    transition: all 0.25s ease-out;
+}
+
+.accent:hover {
+    color: white;
+    background-color: #ab3edd;
+}
+
+.accent span {
+    color: #ab3edd;
+    font-weight: bold;
+}
+
+.accent:hover span {
+    color: white;
+    background-color: #ab3edd;
+}
+
+
+.accent-invert {
+    height: 20px;
+    width: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0px;
+
+    font-weight: bolder;
+
+    transition: all 0.25s ease-out;
+}
+
+.accent-invert:hover {
+    background-color: #fff;
+    border-radius: 25px;
+    color: #000;
+}
+
+.wcenter {
+    margin: 0 auto;
+}
+
+/* Границы и отступы */
+.mauto {
+    margin: auto;
+}
+
+.m10 {
+    margin: 10px;
+}
+
+.m10 {
+    margin: 20px;
+}
+
+.g10 {
+    gap: 10px;
+}
+
+.g20 {
+    gap: 20px;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.brad10 {
+    border-radius: 10px;
+}
+
+.brad20 {
+    border-radius: 20px;
+}
+
+/* Типы элементов */
+.block {
+    display: block;
+}
+
+.flex {
+    display: flex;
+}
+
+/* Флексы */
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.jc-se {
+    justify-content: space-evenly;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+/* Визуал */
+.inner-shadow {
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+
+.blur {
+    backdrop-filter: blur(30px);
+}
+
+/* Форматирование текста */
+.white-text,
+.white-text * {
+    color: aliceblue;
+}
+
+.ctrl-e {
+    text-align: center;
+}
+
+.ctrl-l {
+    text-align: left;
+}
+
+.ctrl-r {
+    text-align: right;
+}
+
+.ctrl-u {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
